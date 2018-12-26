@@ -10,7 +10,7 @@ let bird;
 let brainJSON;
 
 function preload() {
-  brainJSON = loadJSON("bestBird.json");
+  brainJSON = loadJSON("/flappybirdML-Demo/bestBird.json");
 }
 
 function setup() {
